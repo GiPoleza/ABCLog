@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/integragendaCSS.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<script type="text/javascript" src="js/ControleEstrela.js"></script>
+		<title>Seleção Sala</title>
+		
+	</head>
+	<body>
+		<div class="background bg">
+			
+		<div class="cabecalho">
+			<form>
+			<button class="buttonCabecalhoLogo vermelho" formaction="index.html"><img class="selecaoSalasLogo" src="img/menu-options.png" alt="Logo"></button>
+			<div class="dropdown floatRight">
+				<button class="buttonCabecalho vermelho floatRight"><i class="avatar"></i>Usuário</button>
+				<div class="dropdown-content floatRight">
+					<a href="Login.html">Entrar</a>
+					<a href="Cadastro.html">Cadastrar</a>
+					<a href="meuPerfil.html">Perfil</a>
+				</div>
+			</div>
+			<button class="buttonCabecalho vermelho" formaction="minhaAgenda.html"><i class="agenda"></i>Minha Agenda</button>
+			<button class="buttonCabecalho vermelho" formaction="minhasSalas.html"><i class="minhasSalas"></i>Meus Agendamentos</button>
+        </form>		
+		</div>
+			
+			
+			
+			<div class="salas">
+				<div class="containerSala">
+					<a href="salaSelecionada.html">
+					<img class="imgSala" src="img/caminhao1.jpg" alt="Trolltunga Norway">
+					</a>
+						<div id="estrelasSala1" class="rating" >
+						<span onclick="alerta(5, 'estrelasSala1')">&#x2605;</span><span onclick="alerta(4, 'estrelasSala1')">&#x2605;</span><span onclick="alerta(3, 'estrelasSala1')">&#x2605;</span><span onclick="alerta(2, 'estrelasSala1')">&#x2605;</span><span onclick="alerta(1, 'estrelasSala1')">&#x2605;</span>
+						</div>
+					<div class="desc">Preço: R$ 50.00</div>
+				</div>
+
+				<div class="containerSala">
+					<a href="salaSelecionada.html">
+					<img class="imgSala" src="img/caminhao2.png" alt="Forest">
+					</a>
+						<div id="estrelasSala2" class="rating" >
+						<span onclick="alerta(5, 'estrelasSala2')">&#x2605;</span><span onclick="alerta(4, 'estrelasSala2')">&#x2605;</span><span onclick="alerta(3, 'estrelasSala2')">&#x2605;</span><span onclick="alerta(2, 'estrelasSala2')">&#x2605;</span><span onclick="alerta(1, 'estrelasSala2')">&#x2605;</span>
+						</div>
+					<div class="desc">Preço: R$ 50.00</div>
+				</div>
+
+				<div class="containerSala">
+					<a href="salaSelecionada.html">
+					<img class="imgSala" src="img/Caminhao3.png" alt="Northern Lights">
+					</a>
+						<div id="estrelasSala3" class="rating" >
+						<span onclick="alerta(5, 'estrelasSala3')">&#x2605;</span><span onclick="alerta(4, 'estrelasSala3')">&#x2605;</span><span onclick="alerta(3, 'estrelasSala3')">&#x2605;</span><span onclick="alerta(2, 'estrelasSala3')">&#x2605;</span><span onclick="alerta(1, 'estrelasSala3')">&#x2605;</span>
+						</div>
+					<div class="desc">Preço: R$ 50.00</div>
+				</div>
+
+				<div class="containerSala">
+					<a href="salaSelecionada.html">
+					<img class="imgSala" src="img/caminhao4.jpg" alt="Mountains">
+					</a>
+						<div id="estrelasSala4" class="rating" >
+						<span onclick="alerta(5, 'estrelasSala4')">&#x2605;</span><span onclick="alerta(4, 'estrelasSala4')">&#x2605;</span><span onclick="alerta(3, 'estrelasSala4')">&#x2605;</span><span onclick="alerta(2, 'estrelasSala4')">&#x2605;</span><span onclick="alerta(1, 'estrelasSala4')">&#x2605;</span>
+						</div>
+					<div class="desc">Preço: R$ 50.00</div>
+				</div>
+				
+				
+			</div>
+			<br>
+			<br>
+		</div>
+	
+	</body>
+</html>
